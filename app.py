@@ -34,5 +34,4 @@ def predicting():
         return render_template('index.html',prediction=prediction[0], categori=prediction[1])
 
 if __name__ == '__main__':
-    app.debug = True
     app.run()
